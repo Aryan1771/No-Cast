@@ -1,0 +1,31 @@
+/* Known cast components and explicit start-sharing controls only.
+   Stop-sharing buttons remain available for sessions already in progress. */
+google-cast-launcher,
+media-cast-button,
+.ytp-remote-button,
+.ytp-cast-button,
+.vjs-chromecast-button,
+.vjs-chromecast-button-container,
+.jw-icon-cast,
+.shaka-cast-button,
+.plyr__control[data-plyr="airplay"],
+button[aria-label="Cast" i],
+button[aria-label^="Cast to " i],
+button[aria-label="Play on TV" i],
+button[title="Cast" i],
+button[title="Play on TV" i],
+[role="button"][aria-label="Cast" i],
+[role="button"][aria-label="Play on TV" i],
+button[aria-label="Share screen" i],
+button[aria-label="Share your screen" i],
+button[aria-label="Start screen sharing" i],
+button[aria-label="Present now" i],
+[role="button"][aria-label="Share screen" i],
+[role="button"][aria-label="Share your screen" i],
+[role="button"][aria-label="Present now" i],
+video::-webkit-media-controls-cast-button,
+audio::-webkit-media-controls-cast-button {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

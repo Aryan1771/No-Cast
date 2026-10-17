@@ -1,0 +1,10 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+body { width: 310px; margin: 0; padding: 22px; background: #131b21; color: #edf2f5; font-size: 13px; line-height: 1.55; }
+header { display: flex; align-items: center; gap: 12px; }
+h1 { font-size: 19px; line-height: 1.25; margin: 0; }
+.badge { color: #b7e6cc; background: #203a30; border-radius: 8px; padding: 9px 12px; margin: 20px 0 16px; font-weight: 600; }
+ul { padding-left: 18px; }
+li { padding: 3px 0; }
+p { color: #bac8d1; }
+.note { font-size: 12px; }
+footer { border-top: 1px solid #33434e; padding-top: 14px; margin-top: 18px; color: #9ab0bf; font-size: 11px; }
